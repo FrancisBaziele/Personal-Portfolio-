@@ -150,10 +150,60 @@ body{
 }
 
 .contacts-section{
+  width: 75%;
   margin: auto;
   background: #fff;
   border-radius: 1rem;
   padding: 2.5rem 1.3rem;
   box-shadow: 10px 10px 10px 10px rbga(0,0,0,0.7);
   height: 75vh;
+}
+
+
+.c-icon{
+  display: inline;
+  width: 15%;
+  height: 100%;
+}
+.c-info{
+  display: inline;
+  width: 80%;
+  padding: 5px;
+}
+
+
+
+
+ .c-icon i {
+
+  font-size: 20px;
+  color: #149ddd;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #dff3fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.c-info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #050d18;
+}
+
+.c-info small {
+  padding: 0 0 10px 15px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #173b6c;
+}
+
+.location, .email, .phone{
+  margin-bottom: 25px;
 }
