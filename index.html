@@ -86,7 +86,7 @@
     </div>
   </section>
 
-  <section class="p-3">
+  <section id="Services" class="p-3">
     <h2 class="text-center section-title ">Services</h2>
     <div class="row">
 
@@ -160,10 +160,11 @@
     </div>
   </section>
 
-  <section class="p-3">
+  <section id="Contacts" class="p-3">
     <h2 class="text-center section-title">Contacts</h2>
-    <div class="">
+    
     <div class="contacts-section ">
+      <div>
       <div class="location d-flex">
         <div class="c-icon">
           <i class="bi bi-geo-alt"></i>
@@ -191,9 +192,34 @@
           <small>+233249000458</small>
         </div>
       </div>
+      </div>
+      <div class="send-message">
+        <form action="">
+          <fieldset>
+            
+          <legend class="mt-5 mb-3">Send me a message</legend>
+          <div class="mb-3">
+            <label class="form-label" for="i-name">Name</label>
+            <input type="text" name="i-name" id="i-name" class="form-control"  />
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="i-email">Email</label>
+            <input type="email" name="i-email" id="i-email" class="form-control"  />
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="i-subject">Subject</label>
+            <input type="text" name="i-subject" id="i-subject" class="form-control"  />
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="i-message">Message</label>
+            <textarea name="i-message" id="i-message" class="form-control" cols="30" rows="10"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send</button>
+          </fieldset>
+        </form>
+      </div>
+      
     </div>
-    </div>
-
   </section>
 
   <script src="js/typed.min.js" type="text/javascript" charset="utf-8"></script>
